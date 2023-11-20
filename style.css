@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 56px; /* Adjusted padding for fixed navbar */
+  }
+
+  .navbar {
+    transition: background-color 0.3s ease-in-out; /* Added transition effect */
+  }
+
+  .navbar.fixed-top {
+    background-color: #fff; /* Background color when fixed */
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1); /* Box shadow when fixed */
+  }
+  .navbar-brand{
+    margin: 0px 50px 0px 100px;
+  }
+  .navbar li{
+    padding: 0px 50px;
+  }
+  .navbar li a{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .navbar li a:hover{
+    color: skyblue;
+  }
+  .banner{
+    padding-top: 30px;
+    margin: 20px;
+  }
+  .banner img{
+    width: 100%;
+    height: auto;
+  }
+  .banner-btn{
+    text-align: center;
+    margin-top: -180px;
+  }
+  .banner-btn button{
+    padding: 20px 50px;
+    background-color: rgba(20,107,181,0.8);
+    font-size: 25px;
+    color:#fff;
+    border: none;
+    outline: none;
+    letter-spacing: 3px;
+  }
+  .banner-line{
+    border: 1px solid gray;
+    margin-top: 140px;
+  }
+  .first-product .logo1{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: none !important;
+  }
+  .product-card img{
+    width: 250px;
+    height: auto;
+    transition: opacity 0.3s ease-in-zoom;
+  }
+  .product-card:hover img{
+    transform: scale(0.9);
+  }
+
+  .product-card a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    }
+    .product-card a:hover{
+      color: skyblue;
+    }
+    .second-product .logo2{
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .third-product .logo3{
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .fourth-product .logo4{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .fifth-product .logo5{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .sixth-product .logo6{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .seventh-product .logo7{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .form-group{
+        padding: 15px;
+      }
+      .form-group .form-control{
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid gray
+      }
+      
+      #newsletterForm {
+        margin-bottom: 20px;
+      }
+      #newsletterForm .row{
+        border-radius: 50px;
+        border: 1px solid #dae2ec;
+        box-shadow: 0px 10px 20px rgba(97,125,152,0.1);
+        border-top: 6px solid #f5ca8a;
+      }
+      .submit-btn{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .submit-btn button{
+        border-radius:20px;
+        padding: 10px;
+      }
+      .last-footer{
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-family: serif;
+      }
+      .social-media {
+        text-align: center;
+        margin-top: 30px;
+      }
+  
+      .social-media ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+  
+      .social-media li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 10px;
+        padding: 10px;
+      }
+  
+      .social-media a {
+        text-decoration: none;
+      }
+  
+      .social-media i {
+        font-size: 3rem;
+      }
+      .scroll-up-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        display: none;
+      }
+      
+      .scroll-up-btn i {
+        font-size: 20px;
+      }
+  
+      /* Responsive styles */
+      @media (max-width: 1000px) {
+        .social-media li {
+          margin-right: 5px;
+        }
+  
+        .social-media i {
+          font-size: 3rem;
+        }
+        .banner-btn{
+          text-align: center;
+          margin-top: -50px;
+          margin-bottom: -100px;
+        }
+        .banner img{
+          height: 200px;
+        }
+        .product-card img{
+          width: 220px;
+          height: auto;
+        }
+      }
+      @media (max-width: 550px){
+        .navbar-brand{
+          margin: 0px 20px 0px 10px;
+        }
+      }
